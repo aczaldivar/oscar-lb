@@ -1,27 +1,26 @@
-* {
-    /* outline: 2px solid red; */
-}
 
-body {
-    margin: 0;
-}
 
 .top-nav {
     background: black;
     color: white;
     text-align: right;
     padding-right: 20px;
-    height: 12vh;
+    height: 50px;
+
 }
 
 .top-nav ul {
     display: inline-flex;
     margin: 0;
+    color:white;
+    height:15px;
 }
 
 .top-nav ul li {
     list-style: none;
     margin-left: 20px;
+    color:white;
+
 }
 
 /* main nav  */
@@ -38,14 +37,130 @@ body {
 }
 
 
-/* main section  */
-main {
+
+/*main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
+    background-color: #5c54f5;
+    color: white;
+    width: 400px;
+  
+
+}
+*/
+
+.main-nav img{
+    width: 200px;
 }
 
+nav ul{
+    padding-top: 20px;
+    list-style: none;
+}
+.button1{
+    background: white;
+    margin:15px;
+    border: 2px solid #5c54f5;
+    border-radius: 25px;
+    color:#5c54f5;  
+    padding: 15px; 
+    font-weight: bold;
+}
+li{
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:bold;
+    color:black;
+    padding: 20px;
+}
+.button2{
+    background: white;
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    color:#5c54f5;  
+    padding:10px;
+    font-weight:bold;
+}
+.centerimage{
+ width:100%;
+ height:auto;
 
 
+}
+.Paragraph h1{
+font-family:'Times New Roman', Times, serif;
+
+
+
+}
+main{
+    background-color: #5c54f5;
+    color: white;
+    width:100%;
+    height:auto;
+  
+    position:absolute;
+    display:flex;
+    height:600px;
+
+}
+section{
+    width:800px;
+    font-size:25px;
+    padding:20px;
+    width:100%;
+    height:auto;
+}
+.Paragraph{
+   
+    height:150px;
+}
+section.Paragraph{
+   
+    margin-left:100px;
+
+}
+section.Paragraph h1{
+    width: 460px;
+}
+.button2{
+    margin-left:90px;
+}
+section.Paragraph p{
+    height: 163px;
+    padding-left: 0px;
+    padding-right: 176px;
+    font-family: sans-serif;
+    height: 202px;
+    width: 350px;
+  
+}
+@media(max-width:600px){
+    .top-nav {
+        background: black;
+        color: white;
+        text-align: right;
+        padding-right: 20px;
+        height: 50px;
+    
+    }
+    .main-nav img{
+        width: 200px;
+        
+    }
+   a{
+    visibility: hidden;
+   }
+  section.Paragraph h1{
+    margin:0;
+    left:0;
+  }
+  
+}
